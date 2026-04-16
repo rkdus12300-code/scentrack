@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1360">
+    <!-- 브라우저 뷰포트 너비를 1360px로 고정하여 페이지를 그리도록 설정 -->
+    <title>PERFUME I SCENTRACK</title>
+
+    <!-- 웹폰트 연결 -->
+    <!-- font-family: "Marcellus", serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+
+    <!-- font-family: "Noto Sans KR", sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- 외부 css 연결 -->
+    <link rel="stylesheet" href="css/style6.css">
+
+    <!-- 파비콘 연결 -->
+    <link rel="shortcut icon" href="./images/main_images/favicon-32x32.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="top">
+                <p>
+                    <a href="#">회원가입 10% 쿠폰 I 센트랙 회원은 무료배송
+                    </a>
+                </p>
+            </div>
+
+            <div class="nav">
+                <div class="inner_nav">
+                    <ul class="gnb">
+                        <li class="home"><a href="./index.html">HOME</a></li>
+                        <li>
+                            <a href="#">SHOP</a>
+                            <div class="submenu bg">
+                                <div class="inner_submenu">
+                                    <ul>
+                                        <li>
+                                            <a href="./subpage_shop1.html">
+                                                <img src="./images/sub_menu_images/sub_perfume.svg" alt="향수">
+                                                <p>PERFUME</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./subpage_shop2.html">
+                                                <img src="./images/sub_menu_images/sub_hand.svg" alt="핸드">
+                                                <p>HAND</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./subpade_shop3.html">
+                                                <img src="./images/sub_menu_images/sub_home.svg" alt="홈">
+                                                <p>HOME FRAGRANCE</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">STORY</a>
+                            <div class="submenu bg">
+                                <div class="inner_submenu">
+                                    <ul>
+                                        <li>
+                                            <a href="./subpage_story.html">
+                                                <img src="./images/sub_menu_images/sub_brandstory.svg" alt="스토리">
+                                                <p>BRAND STORY</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./subpage_story.html#section3">
+                                                <img src="./images/sub_menu_images/sub_journal.svg" alt="저널">
+                                                <p>JOURNAL</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">STORE</a>
+                            <div class="submenu bg">
+                                <div class="inner_submenu">
+                                    <ul>
+                                        <li>
+                                            <a href="./subpage_store.html">
+                                                <img src="./images/sub_menu_images/sub_store.svg" alt="스토어">
+                                                <p>STORE</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <h1 class="logo">
+                        <a href="./index.html">
+                            <img src="./images/subpage_shop_images/logoblack.svg" alt="로고">
+                        </a>
+                    </h1>
+
+                    <ul class="util">
+                        <li><a href="#">검색</a></li>
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">CART</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="section">
+            <div class="inner_section">
+                <div class="img">
+                    <img src="./images/product_images/main_01.jpg" alt="메인1">
+                    <img src="./images/product_images/main_02.jpg" alt="메인2">
+                    <img src="./images/product_images/main_03.jpg" alt="메인3">
+                    <img src="./images/product_images/main_04.jpg" alt="메인4">
+                    <img src="./images/product_images/main_05.jpg" alt="메인5">
+                    <img src="./images/product_images/main_06.jpg" alt="메인6">
+                    <img src="./images/product_images/main_07.jpg" alt="메인7">
+                </div>
+
+                <div class="text">
+                    <div class="text01">
+                        <h1>SCENTRACK PERFUME</h1>
+                        <h3>Choose your scent (1 of 4)</h3>
+                        <p>139,000원</p>
+                        <p>50ML</p>
+                    </div>
+
+                    <div class="select">
+                        <select name="perfume" id="perfume">
+                            <option value="" disabled selected>향 선택</option>
+                            <!-- 빈 데이터, disabled : 클릭해도 선택이 안됨/ selected : 처음 선택된 상태 -->
+                            <option value="perfume1">TRACK 01. The First Press</option>
+                            <option value="perfume2">TRACK 02. Vintage Groove</option>
+                            <option value="perfume3">TRACK 03. Deep Chorus</option>
+                            <option value="perfume4">TRACK 04. Midnight Static</option>
+                        </select>
+                    </div>
+
+                    <div class="plus_btn">
+                        <button>
+                            <img src="./images/product_images/minus.svg" alt="마이너스">
+                        </button>
+                        <p>0</p>
+                        <button>
+                            <img src="./images/product_images/plus.svg" alt="플러스">
+                        </button>
+                    </div>
+
+                    <div class="total">
+                        <p>Total</p>
+                        <p>0 (0개)</p>
+                    </div>
+
+                    <div class="btn01">
+                        <p class="cart"><a href="#">장바구니</a></p>
+                        <p class="buy"><a href="#">바로구매</a></p>
+                    </div>
+
+                    <div class="btn02">
+                        <div class="naver_img">
+                            <img src="./images/product_images/naver_logo.svg" alt="네이버">
+                        </div>
+                        <div class="naver_text">
+                            <p><a href="#">pay</a></p>
+                        </div>
+                    </div>
+
+                    <div class="board">
+                        <ul>
+                            <li>
+                                <div class="question">
+                                    <p>배송 및 문의</p>
+                                    <div>
+                                        <img src="./images/product_images/arrow-down.svg" alt="화살표">
+                                    </div>
+                                </div>
+
+                                <div class="answer">
+                                    <p>배송 <br>
+                                        - 배송은 결제 완료 후 평균 1~3일(영업일 기준) 소요됩니다. <br>
+                                        - 도서산간 지역은 추가 배송일이 발생할 수 있습니다. <br>
+                                        - 주문량 증가 및 택배사 사정에 따라 배송이 지연될 수 있습니다. 
+                                        <br><br>
+                                        배송비 <br>
+                                        - 기본 배송비: 3,000원 <br>
+                                        - 50,000원 이상 구매 시 무료배송 <br>
+                                        <br><br>
+                                        교환 / 반품 안내 <br>
+                                        - 상품 수령 후 7일 이내 교환 및 반품이 가능합니다. <br>
+                                        - 단순 변심에 의한 교환/반품 시 왕복 배송비는 고객 부담입니다. <br>
+                                        - 상품 개봉 및 사용 후에는 교환/반품이 불가합니다. <br>
+                                        <br><br>
+                                        교환/반품 불가 사유 <br>
+                                        - 사용 흔적이 있는 경우 <br>
+                                        - 상품 및 패키지가 훼손된 경우 <br>
+                                        - 향수 특성상 개봉 후 재판매가 불가능한 경우 <br>
+                                        <br><br>
+                                        문의 안내 <br>
+                                        - 고객센터: 0000-0000 <br>
+                                        - 운영시간: 평일 10:00 – 18:00 (주말 및 공휴일 제외) <br>
+                                        - 점심시간: 12:00 – 13:00 <br>
+                                    </p> 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="./images/product_images/main_08.jpg" alt="메인8">
+        </div>
+
+        <div id="footer">
+            <div class="inner_footer">
+                <p>
+                    <a href="./index.html">
+                        <img src="./images/subpage_shop_images/footer_logo.svg" alt="로고">
+                    </a>
+                </p>
+
+                <p class="footer_link">
+                    <a href="#">
+                        이용약관 I 개인정보처리방침 I 문의
+                    </a>
+                </p>
+
+                <p class="footer_text">(주)센트랙 / 대표: 김가연/ 주소: 부산광역시 중구 / 사업자등록번호: 111-11-11111 / 통신판매업신고: 제
+                    2026-부산중구-1111호 <br>
+                    대표번호: 1111-1111 / 이메일: info@scentrack.com / 개인정보보호관리 책임자: 김가연</p>
+
+                <ul>
+                    <li><a href="#">INSTAGRAM</a></li>
+                    <li><a href="#">KAKAOTALK</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery 오픈소스 -->
+    <script src="./js/jquery-4.0.0.min.js"></script>
+
+    <!-- js 파일 연결 -->
+    <script src="./js/script6.js"></script>
+</body>
+
+</html>
